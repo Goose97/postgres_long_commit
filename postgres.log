@@ -1,0 +1,20 @@
+2022-01-25 06:48:00.313 UTC [24767] user@database LOG:  duration: 9007.983 ms  statement: COMMIT
+2022-01-25 06:48:00.314 UTC [24873] user@database LOG:  duration: 6857.767 ms  statement: COMMIT
+2022-01-25 06:48:00.314 UTC [24827] user@database LOG:  duration: 7946.882 ms  statement: COMMIT
+2022-01-25 06:48:00.314 UTC [25009] user@database LOG:  duration: 2490.926 ms  statement: COMMIT
+2022-01-25 06:48:00.314 UTC [10653] user@database LOG:  duration: 9748.788 ms  statement: COMMIT
+2022-01-25 06:48:00.314 UTC [25025] user@database LOG:  duration: 905.383 ms  statement: COMMIT
+2022-01-25 06:48:00.314 UTC [10651] user@database LOG:  duration: 9293.450 ms  statement: COMMIT
+2022-01-25 06:48:00.314 UTC [15105] user@database LOG:  duration: 9743.965 ms  statement: COMMIT
+2022-01-25 06:48:00.314 UTC [15777] user@database LOG:  duration: 9709.752 ms  execute <unnamed>: UPDATE public.pages_contents_103364 pages_contents SET updated_at = $1 WHERE ((id OPERATOR(pg_catalog.=) 'df0c51e8-0bb6-4484-9da8-1e0684fb87aa'::uuid) AND ((page_id)::text OPERATOR(pg_catalog.=) '110261388173035'::text))
+2022-01-25 06:48:00.314 UTC [15777] user@database DETAIL:  parameters: $1 = '2022-01-25 06:47:50', $2 = 'df0c51e8-0bb6-4484-9da8-1e0684fb87aa', $3 = '110261388173035'
+2022-01-25 06:48:00.314 UTC [15818] user@database LOG:  duration: 9636.349 ms  statement: COMMIT
+2022-01-25 06:48:00.315 UTC [24887] user@database LOG:  duration: 6486.808 ms  execute <unnamed>: UPDATE public.pages_contents_103364 pages_contents SET updated_at = $1 WHERE ((id OPERATOR(pg_catalog.=) 'bd4472a4-c27e-4152-a101-a494568972f0'::uuid) AND ((page_id)::text OPERATOR(pg_catalog.=) '110261388173035'::text))
+2022-01-25 06:48:00.315 UTC [24887] user@database DETAIL:  parameters: $1 = '2022-01-25 06:47:53', $2 = 'bd4472a4-c27e-4152-a101-a494568972f0', $3 = '110261388173035'
+2022-01-25 06:48:00.315 UTC [24768] user@database LOG:  duration: 8556.518 ms  statement: COMMIT
+2022-01-25 06:48:00.315 UTC [24842] user@database LOG:  duration: 7682.192 ms  execute <unnamed>: UPDATE public.pages_contents_103364 pages_contents SET updated_at = $1 WHERE ((id OPERATOR(pg_catalog.=) 'eae375c0-d10a-4136-9cc2-361ba302efb8'::uuid) AND ((page_id)::text OPERATOR(pg_catalog.=) '102142008748257'::text))
+2022-01-25 06:48:00.315 UTC [24842] user@database DETAIL:  parameters: $1 = '2022-01-25 06:47:52', $2 = 'eae375c0-d10a-4136-9cc2-361ba302efb8', $3 = '102142008748257'
+2022-01-25 06:48:00.315 UTC [24799] user@database LOG:  duration: 8446.071 ms  statement: COMMIT
+2022-01-25 06:48:00.315 UTC [24891] user@database LOG:  duration: 6075.407 ms  statement: COMMIT
+2022-01-25 06:48:00.315 UTC [24850] user@database LOG:  duration: 7412.969 ms  statement: COMMIT
+2022-01-25 06:48:00.315 UTC [24819] user@database LOG:  duration: 7987.942 ms  statement: COMMIT

@@ -1,0 +1,356 @@
+06:47:54 Total DISK READ :       4.97 M/s | Total DISK WRITE :      34.77 K/s
+06:47:54 Actual DISK READ:       5.18 M/s | Actual DISK WRITE:     100.45 K/s
+06:47:54  6787 be/4 postgres    4.97 M/s    0.00 B/s  0.00 %  2.16 % postgres: 11/main: autovacuum worker   database
+06:47:54 19769 be/4 root        0.00 B/s    3.86 K/s  0.00 %  0.00 % python3 /usr/sbin/iotop -botqq
+06:47:54 15917 be/4 postgres    0.00 B/s   30.91 K/s  0.00 %  0.00 % pgbouncer -d /etc/pgbouncer/pgbouncer.ini
+
+06:47:55 Total DISK READ :       5.34 M/s | Total DISK WRITE :      30.68 K/s
+06:47:55 Actual DISK READ:       5.40 M/s | Actual DISK WRITE:       0.00 B/s
+06:47:55 24907 be/4 postgres    0.00 B/s    7.67 K/s  0.00 %  0.00 % postgres: 11/main: user database 127.0.0.1(45858) UPDATE
+06:47:55 15917 be/4 postgres    0.00 B/s   23.01 K/s  0.00 %  0.00 % pgbouncer -d /etc/pgbouncer/pgbouncer.ini
+06:47:55  6787 be/4 postgres    5.34 M/s    0.00 B/s  0.00 %  0.00 % postgres: 11/main: autovacuum worker   database
+
+06:47:56 Total DISK READ :       5.38 M/s | Total DISK WRITE :      30.70 K/s
+06:47:56 Actual DISK READ:       5.76 M/s | Actual DISK WRITE:     199.54 K/s
+06:47:56   286 be/3 root        0.00 B/s    7.67 K/s  0.00 %  0.52 % [jbd2/vda1-8]
+06:47:56 24935 be/4 postgres   15.35 K/s    0.00 B/s  0.00 %  0.32 % postgres: 11/main: user database 127.0.0.1(45894) UPDATE waiting
+06:47:56   457 be/3 root        0.00 B/s    0.00 B/s  0.00 %  0.29 % [jbd2/vdc1-8]
+06:47:56   453 be/3 root        0.00 B/s    0.00 B/s  0.00 %  0.23 % [jbd2/vdb1-8]
+06:47:56  6787 be/4 postgres    5.37 M/s    0.00 B/s  0.00 %  0.21 % postgres: 11/main: autovacuum worker   database
+06:47:56 15917 be/4 postgres    0.00 B/s   19.19 K/s  0.00 %  0.21 % pgbouncer -d /etc/pgbouncer/pgbouncer.ini
+06:47:56 18725 be/4 cc          0.00 B/s    3.84 K/s  0.00 %  0.00 % iostat -t -mx 1
+
+06:47:57 Total DISK READ :    1460.28 K/s | Total DISK WRITE :      15.21 K/s
+06:47:57 Actual DISK READ:    1536.33 K/s | Actual DISK WRITE:      22.82 K/s
+06:47:57 24976 be/4 postgres    7.61 K/s    0.00 B/s  0.00 %  0.10 % postgres: 11/main: user database 127.0.0.1(45924) COMMIT
+06:47:57 15917 be/4 postgres    0.00 B/s   15.21 K/s  0.00 %  0.00 % pgbouncer -d /etc/pgbouncer/pgbouncer.ini
+06:47:57  6787 be/4 postgres 1452.67 K/s    0.00 B/s  0.00 %  0.00 % postgres: 11/main: autovacuum worker   database
+
+06:47:58 Total DISK READ :      30.79 K/s | Total DISK WRITE :      19.24 K/s
+06:47:58 Actual DISK READ:      38.49 K/s | Actual DISK WRITE:       0.00 B/s
+06:47:58 25009 be/4 postgres   23.09 K/s    0.00 B/s  0.00 %  0.37 % postgres: 11/main: user database 127.0.0.1(45958) COMMIT
+06:47:58 25008 be/4 postgres    7.70 K/s    0.00 B/s  0.00 %  0.08 % postgres: 11/main: user database 127.0.0.1(45956) UPDATE
+06:47:58 15917 be/4 postgres    0.00 B/s   15.39 K/s  0.00 %  0.00 % pgbouncer -d /etc/pgbouncer/pgbouncer.ini
+06:47:58  7816 be/4 cc          0.00 B/s    3.85 K/s  0.00 %  0.00 % beam.smp -S 1 -- -root /home/cc/cakecloud-exporter -progname erl -- -home /home/cc -- -noshell -s elixir start_cli -mode embedded -setcookie cakecloud-exporter-1qa2ws3ed4rf -sname prod -config /home/cc/cakecloud-exporter/releases/0.1.0/sys -boot /home/cc/cakecloud-exporter/releases/0.1.0/start -boot_var RELEASE_LIB /home/cc/cakecloud-exporter/lib -- -- -extra --no-halt [1_dirty_io_sche]
+
+06:47:59 Total DISK READ :      99.65 K/s | Total DISK WRITE :      34.49 K/s
+06:47:59 Actual DISK READ:    1763.04 K/s | Actual DISK WRITE:      91.98 K/s
+06:47:59 25025 be/4 postgres   68.99 K/s    0.00 B/s  0.00 %  0.55 % postgres: 11/main: user database 127.0.0.1(45970) COMMIT
+06:47:59 25024 be/4 postgres   30.66 K/s    0.00 B/s  0.00 %  0.54 % postgres: 11/main: user database 127.0.0.1(45968) UPDATE waiting
+06:47:59 15869 be/4 postgres    0.00 B/s   23.00 K/s  0.00 %  0.00 % postgres: 11/main: background writer
+06:47:59 15917 be/4 postgres    0.00 B/s   11.50 K/s  0.00 %  0.00 % pgbouncer -d /etc/pgbouncer/pgbouncer.ini
+
+06:48:00 Total DISK READ :      10.39 M/s | Total DISK WRITE :      20.00 M/s
+06:48:00 Actual DISK READ:      10.71 M/s | Actual DISK WRITE:      19.29 M/s
+06:48:00  6244 be/4 postgres    0.00 B/s    0.00 B/s  0.00 % 99.99 % postgres: 11/main: user database 127.0.0.1(43958) idle
+06:48:00 24764 be/4 postgres 1008.83 K/s    0.00 B/s  0.00 % 99.99 % postgres: 11/main: user database 127.0.0.1(45680) SELECT
+06:48:00   457 be/3 root        0.00 B/s   19.11 K/s  0.00 % 99.99 % [jbd2/vdc1-8]
+06:48:00   453 be/3 root        0.00 B/s   49.68 K/s  0.00 % 99.99 % [jbd2/vdb1-8]
+06:48:00 25044 be/4 postgres 1199.90 K/s    0.00 B/s  0.00 % 99.99 % postgres: 11/main: parallel worker for PID 25042
+06:48:00 25042 be/4 postgres 1016.48 K/s    0.00 B/s  0.00 % 99.99 % postgres: 11/main: user database 127.0.0.1(45980) SELECT
+06:48:00 25045 be/4 postgres 1138.76 K/s    0.00 B/s  0.00 % 27.96 % postgres: 11/main: parallel worker for PID 25042
+06:48:00 25046 be/4 postgres 1047.05 K/s    0.00 B/s  0.00 % 25.77 % postgres: 11/main: parallel worker for PID 25042
+06:48:00 24932 be/4 postgres   30.57 K/s   76.43 K/s  0.00 %  4.06 % postgres: 11/main: user database 127.0.0.1(45888) idle
+06:48:00 25047 be/4 postgres    0.00 B/s    2.90 M/s  0.00 %  3.80 % postgres: 11/main: user database 127.0.0.1(45982) idle
+06:48:00 24871 be/4 postgres    0.00 B/s   42.03 K/s  0.00 %  3.10 % postgres: 11/main: user database 127.0.0.1(45810) BIND
+06:48:00 24989 be/4 postgres    7.64 K/s   53.50 K/s  0.00 %  3.06 % postgres: 11/main: user database 127.0.0.1(45938) idle
+06:48:00 25050 be/4 postgres   15.29 K/s  129.93 K/s  0.00 %  2.57 % postgres: 11/main: user database 127.0.0.1(45988) idle
+06:48:00 15870 be/4 postgres    0.00 B/s  175.78 K/s  0.00 %  2.43 % postgres: 11/main: walwriter
+06:48:00 15868 be/4 postgres    0.00 B/s   14.43 M/s  0.00 %  2.35 % postgres: 11/main: checkpointer
+06:48:00 15101 be/4 postgres    0.00 B/s   34.39 K/s  0.00 %  1.94 % postgres: 11/main: user database 127.0.0.1(45374) idle
+06:48:00 24826 be/4 postgres   30.57 K/s   30.57 K/s  0.00 %  1.89 % postgres: 11/main: user database 127.0.0.1(45740) idle
+06:48:00 24909 be/4 postgres    0.00 B/s  122.28 K/s  0.00 %  1.78 % postgres: 11/main: user database 127.0.0.1(45862) idle
+06:48:00 24831 be/4 postgres    0.00 B/s   15.29 K/s  0.00 %  1.58 % postgres: 11/main: user database 127.0.0.1(45750) idle
+06:48:00 24956 be/4 postgres    0.00 B/s   64.96 K/s  0.00 %  1.06 % postgres: 11/main: user database 127.0.0.1(45916) idle
+06:48:00 31682 be/4 postgres   22.93 K/s  596.13 K/s  0.00 %  1.02 % postgres: 11/main: autovacuum worker   database
+06:48:00 24929 be/4 postgres  137.57 K/s   49.68 K/s  0.00 %  0.99 % postgres: 11/main: user database 127.0.0.1(45882) idle
+06:48:00 25001 be/4 postgres   15.29 K/s   19.11 K/s  0.00 %  0.94 % postgres: 11/main: user database 127.0.0.1(45942) BIND
+06:48:00 25002 be/4 postgres    0.00 B/s  187.25 K/s  0.00 %  0.88 % postgres: 11/main: user database 127.0.0.1(45944) idle
+06:48:00 25004 be/4 postgres    0.00 B/s   61.14 K/s  0.00 %  0.66 % postgres: 11/main: user database 127.0.0.1(45948) idle
+06:48:00 25023 be/4 postgres    7.64 K/s   91.71 K/s  0.00 %  0.64 % postgres: 11/main: user database 127.0.0.1(45966) idle
+06:48:00 21505 be/4 postgres    0.00 B/s  298.06 K/s  0.00 %  0.52 % postgres: 11/main: user database 127.0.0.1(45570) idle
+06:48:00 25635 be/4 postgres    2.31 M/s  175.78 K/s  0.00 %  0.52 % postgres: 11/main: autovacuum worker   database
+06:48:00 24933 be/4 postgres    0.00 B/s  126.10 K/s  0.00 %  0.52 % postgres: 11/main: user database 127.0.0.1(45890) PARSE
+06:48:00 24934 be/4 postgres   30.57 K/s    0.00 B/s  0.00 %  0.49 % postgres: 11/main: user database 127.0.0.1(45892) INSERT
+06:48:00 24876 be/4 postgres    0.00 B/s    7.64 K/s  0.00 %  0.48 % postgres: 11/main: user database 127.0.0.1(45820) BIND
+06:48:00 25024 be/4 postgres    7.64 K/s    0.00 B/s  0.00 %  0.44 % postgres: 11/main: user database 127.0.0.1(45968) SELECT
+06:48:00 24905 be/4 postgres    0.00 B/s    7.64 K/s  0.00 %  0.42 % postgres: 11/main: user database 127.0.0.1(45854) idle
+06:48:00 24937 be/4 postgres   15.29 K/s    0.00 B/s  0.00 %  0.40 % postgres: 11/main: user database 127.0.0.1(45898) BIND
+06:48:00 25011 be/4 postgres    0.00 B/s    7.64 K/s  0.00 %  0.39 % postgres: 11/main: user database 127.0.0.1(45962) idle in transaction
+06:48:00 24832 be/4 postgres    0.00 B/s    3.82 K/s  0.00 %  0.39 % postgres: 11/main: user database 127.0.0.1(45752) idle
+06:48:00 24870 be/4 postgres    0.00 B/s   30.57 K/s  0.00 %  0.35 % postgres: 11/main: user database 127.0.0.1(45808) idle
+06:48:00 24940 be/4 postgres    0.00 B/s   38.21 K/s  0.00 %  0.35 % postgres: 11/main: user database 127.0.0.1(45904) idle
+06:48:00 25005 be/4 postgres    0.00 B/s   38.21 K/s  0.00 %  0.32 % postgres: 11/main: user database 127.0.0.1(45950) BIND
+06:48:00 24865 be/4 postgres   15.29 K/s    0.00 B/s  0.00 %  0.26 % postgres: 11/main: user database 127.0.0.1(45798) idle
+06:48:00 24866 be/4 postgres   15.29 K/s    3.82 K/s  0.00 %  0.19 % postgres: 11/main: user database 127.0.0.1(45800) idle
+06:48:00 24885 be/4 postgres    7.64 K/s    3.82 K/s  0.00 %  0.17 % postgres: 11/main: user database 127.0.0.1(45834) idle
+06:48:00 24942 be/4 postgres    7.64 K/s    3.82 K/s  0.00 %  0.15 % postgres: 11/main: user database 127.0.0.1(45908) idle
+06:48:00 24869 be/4 postgres   15.29 K/s    0.00 B/s  0.00 %  0.13 % postgres: 11/main: user database 127.0.0.1(45806) idle
+06:48:00 24833 be/4 postgres   15.29 K/s    0.00 B/s  0.00 %  0.13 % postgres: 11/main: user database 127.0.0.1(45754) idle
+06:48:00 24931 be/4 postgres    7.64 K/s    3.82 K/s  0.00 %  0.09 % postgres: 11/main: user database 127.0.0.1(45886) idle
+06:48:00 25049 be/4 postgres    7.64 K/s    0.00 B/s  0.00 %  0.09 % postgres: 11/main: user database 127.0.0.1(45986) idle
+06:48:00 15816 be/4 postgres    7.64 K/s    0.00 B/s  0.00 %  0.08 % postgres: 11/main: user database 127.0.0.1(44366) idle
+06:48:00 25003 be/4 postgres    7.64 K/s    0.00 B/s  0.00 %  0.07 % postgres: 11/main: user database 127.0.0.1(45946) idle
+06:48:00 24877 be/4 postgres    7.64 K/s    0.00 B/s  0.00 %  0.06 % postgres: 11/main: user database 127.0.0.1(45822) INSERT
+06:48:00 24766 be/4 postgres    0.00 B/s    0.00 B/s  0.00 %  0.02 % postgres: 11/main: user database 127.0.0.1(45684) BIND
+06:48:00 24801 be/4 postgres    0.00 B/s    3.82 K/s  0.00 %  0.00 % postgres: 11/main: user database 127.0.0.1(45710) idle
+06:48:00 24825 be/4 postgres    0.00 B/s    3.82 K/s  0.00 %  0.00 % postgres: 11/main: user database 127.0.0.1(45738) idle
+06:48:00 24842 be/4 postgres    0.00 B/s    3.82 K/s  0.00 %  0.00 % postgres: 11/main: user database 127.0.0.1(45772) idle
+06:48:00 24858 be/4 postgres    0.00 B/s    3.82 K/s  0.00 %  0.00 % postgres: 11/main: user database 127.0.0.1(45794) idle
+06:48:00 24868 be/4 postgres    0.00 B/s    3.82 K/s  0.00 %  0.00 % postgres: 11/main: user database 127.0.0.1(45804) BIND
+06:48:00 19769 be/4 root        0.00 B/s    3.82 K/s  0.00 %  0.00 % python3 /usr/sbin/iotop -botqq
+06:48:00 24958 be/4 postgres    0.00 B/s    3.82 K/s  0.00 %  0.00 % postgres: 11/main: user database 127.0.0.1(45920) idle
+06:48:00 25006 be/4 postgres    0.00 B/s    3.82 K/s  0.00 %  0.00 % postgres: 11/main: user database 127.0.0.1(45952) idle
+06:48:00 25017 be/4 postgres    0.00 B/s    3.82 K/s  0.00 %  0.00 % postgres: 11/main: user database 127.0.0.1(45964) idle
+06:48:00 15869 be/4 postgres    0.00 B/s   99.35 K/s  0.00 %  0.00 % postgres: 11/main: background writer
+06:48:00 15917 be/4 postgres    0.00 B/s   19.11 K/s  0.00 %  0.00 % pgbouncer -d /etc/pgbouncer/pgbouncer.ini
+06:48:00  6787 be/4 postgres    2.37 M/s    7.64 K/s  0.00 %  0.00 % postgres: 11/main: autovacuum worker   database
+
+06:48:01 Total DISK READ :      28.58 M/s | Total DISK WRITE :       7.20 M/s
+06:48:01 Actual DISK READ:      28.43 M/s | Actual DISK WRITE:       6.36 M/s
+06:48:01 25045 be/4 postgres    3.77 M/s    0.00 B/s  0.00 % 66.76 % postgres: 11/main: parallel worker for PID 25042
+06:48:01 25042 be/4 postgres    3.82 M/s    0.00 B/s  0.00 % 64.21 % postgres: 11/main: user database 127.0.0.1(45980) SELECT
+06:48:01 25046 be/4 postgres    4.30 M/s    0.00 B/s  0.00 % 56.84 % postgres: 11/main: parallel worker for PID 25042
+06:48:01 25044 be/4 postgres    4.32 M/s    0.00 B/s  0.00 % 49.89 % postgres: 11/main: parallel worker for PID 25042
+06:48:01 24764 be/4 postgres 1529.66 K/s   10.77 K/s  0.00 % 30.05 % postgres: 11/main: user database 127.0.0.1(45680) idle
+06:48:01 24934 be/4 postgres    7.18 K/s   28.73 K/s  0.00 %  5.32 % postgres: 11/main: user database 127.0.0.1(45892) idle
+06:48:01 24852 be/4 postgres    0.00 B/s  165.17 K/s  0.00 %  4.13 % postgres: 11/main: user database 127.0.0.1(45792) idle
+06:48:01 24869 be/4 postgres   71.81 K/s  229.81 K/s  0.00 %  2.18 % postgres: 11/main: user database 127.0.0.1(45806) idle
+06:48:01 24808 be/4 postgres   50.27 K/s   93.36 K/s  0.00 %  2.06 % postgres: 11/main: user database 127.0.0.1(45724) idle
+06:48:01 25030 be/4 postgres  136.45 K/s   43.09 K/s  0.00 %  2.04 % postgres: 11/main: user database 127.0.0.1(45976) idle
+06:48:01 25023 be/4 postgres   14.36 K/s   93.36 K/s  0.00 %  1.98 % postgres: 11/main: user database 127.0.0.1(45966) idle
+06:48:01 24892 be/4 postgres    7.18 K/s  114.90 K/s  0.00 %  1.98 % postgres: 11/main: user database 127.0.0.1(45848) idle
+06:48:01 24884 be/4 postgres  136.45 K/s   93.36 K/s  0.00 %  1.96 % postgres: 11/main: user database 127.0.0.1(45832) idle
+06:48:01 24935 be/4 postgres    7.18 K/s   86.18 K/s  0.00 %  1.78 % postgres: 11/main: user database 127.0.0.1(45894) idle in transaction
+06:48:01 24858 be/4 postgres   28.73 K/s  165.17 K/s  0.00 %  1.65 % postgres: 11/main: user database 127.0.0.1(45794) idle
+06:48:01 31682 be/4 postgres   64.63 K/s  955.14 K/s  0.00 %  1.61 % postgres: 11/main: autovacuum worker   database
+06:48:01 24940 be/4 postgres   21.54 K/s   43.09 K/s  0.00 %  1.51 % postgres: 11/main: user database 127.0.0.1(45904) idle
+06:48:01 24826 be/4 postgres    7.18 K/s   64.63 K/s  0.00 %  1.46 % postgres: 11/main: user database 127.0.0.1(45740) idle
+06:48:01 24937 be/4 postgres   14.36 K/s   21.54 K/s  0.00 %  1.44 % postgres: 11/main: user database 127.0.0.1(45898) idle
+06:48:01   457 be/3 root        0.00 B/s   35.91 K/s  0.00 %  1.20 % [jbd2/vdc1-8]
+06:48:01 24807 be/4 postgres  100.54 K/s   64.63 K/s  0.00 %  1.09 % postgres: 11/main: user database 127.0.0.1(45722) idle
+06:48:01 24866 be/4 postgres   28.73 K/s  179.54 K/s  0.00 %  1.07 % postgres: 11/main: user database 127.0.0.1(45800) UPDATE waiting
+06:48:01 25005 be/4 postgres   14.36 K/s   35.91 K/s  0.00 %  0.96 % postgres: 11/main: user database 127.0.0.1(45950) idle
+06:48:01 24989 be/4 postgres    0.00 B/s  165.17 K/s  0.00 %  0.90 % postgres: 11/main: user database 127.0.0.1(45938) idle
+06:48:01 24763 be/4 postgres   14.36 K/s   79.00 K/s  0.00 %  0.89 % postgres: 11/main: user database 127.0.0.1(45678) idle
+06:48:01 24958 be/4 postgres   21.54 K/s   28.73 K/s  0.00 %  0.84 % postgres: 11/main: user database 127.0.0.1(45920) idle
+06:48:01 25002 be/4 postgres    7.18 K/s   28.73 K/s  0.00 %  0.82 % postgres: 11/main: user database 127.0.0.1(45944) idle in transaction
+06:48:01 15870 be/4 postgres    0.00 B/s  186.72 K/s  0.00 %  0.81 % postgres: 11/main: walwriter
+06:48:01 25008 be/4 postgres    0.00 B/s  114.90 K/s  0.00 %  0.80 % postgres: 11/main: user database 127.0.0.1(45956) idle
+06:48:01 15777 be/4 postgres    0.00 B/s  143.63 K/s  0.00 %  0.78 % postgres: 11/main: user database 127.0.0.1(44332) idle
+06:48:01 25004 be/4 postgres    0.00 B/s    7.18 K/s  0.00 %  0.75 % postgres: 11/main: user database 127.0.0.1(45948) idle
+06:48:01 24909 be/4 postgres    0.00 B/s  122.09 K/s  0.00 %  0.70 % postgres: 11/main: user database 127.0.0.1(45862) idle
+06:48:01 24868 be/4 postgres    7.18 K/s  150.81 K/s  0.00 %  0.70 % postgres: 11/main: user database 127.0.0.1(45804) idle
+06:48:01 24872 be/4 postgres    7.18 K/s   71.81 K/s  0.00 %  0.69 % postgres: 11/main: user database 127.0.0.1(45812) idle
+06:48:01 24766 be/4 postgres    0.00 B/s  172.36 K/s  0.00 %  0.68 % postgres: 11/main: user database 127.0.0.1(45684) idle
+06:48:01 15101 be/4 postgres    7.18 K/s   79.00 K/s  0.00 %  0.62 % postgres: 11/main: user database 127.0.0.1(45374) idle
+06:48:01 24933 be/4 postgres   14.36 K/s   14.36 K/s  0.00 %  0.62 % postgres: 11/main: user database 127.0.0.1(45890) idle
+06:48:01 24871 be/4 postgres    0.00 B/s   28.73 K/s  0.00 %  0.61 % postgres: 11/main: user database 127.0.0.1(45810) idle
+06:48:01 24956 be/4 postgres   21.54 K/s   50.27 K/s  0.00 %  0.59 % postgres: 11/main: user database 127.0.0.1(45916) idle in transaction
+06:48:01 24833 be/4 postgres   14.36 K/s   71.81 K/s  0.00 %  0.58 % postgres: 11/main: user database 127.0.0.1(45754) idle
+06:48:01 24877 be/4 postgres    7.18 K/s   93.36 K/s  0.00 %  0.58 % postgres: 11/main: user database 127.0.0.1(45822) idle
+06:48:01 25003 be/4 postgres    0.00 B/s   50.27 K/s  0.00 %  0.58 % postgres: 11/main: user database 127.0.0.1(45946) idle
+06:48:01 24905 be/4 postgres   14.36 K/s   28.73 K/s  0.00 %  0.52 % postgres: 11/main: user database 127.0.0.1(45854) idle
+06:48:01 24929 be/4 postgres    0.00 B/s   79.00 K/s  0.00 %  0.47 % postgres: 11/main: user database 127.0.0.1(45882) idle
+06:48:01 15868 be/4 postgres    0.00 B/s 1831.28 K/s  0.00 %  0.47 % postgres: 11/main: checkpointer
+06:48:01 24865 be/4 postgres   14.36 K/s   43.09 K/s  0.00 %  0.46 % postgres: 11/main: user database 127.0.0.1(45798) idle
+06:48:01 24930 be/4 postgres    0.00 B/s    7.18 K/s  0.00 %  0.44 % postgres: 11/main: user database 127.0.0.1(45884) idle
+06:48:01 25011 be/4 postgres   14.36 K/s   35.91 K/s  0.00 %  0.44 % postgres: 11/main: user database 127.0.0.1(45962) idle
+06:48:01 24825 be/4 postgres    0.00 B/s   43.09 K/s  0.00 %  0.43 % postgres: 11/main: user database 127.0.0.1(45738) idle
+06:48:01 25051 be/4 postgres    0.00 B/s  114.90 K/s  0.00 %  0.42 % postgres: 11/main: user database 127.0.0.1(45990) idle in transaction
+06:48:01 24797 be/4 postgres    0.00 B/s   21.54 K/s  0.00 %  0.42 % postgres: 11/main: user database 127.0.0.1(45702) idle
+06:48:01 25052 be/4 postgres    7.18 K/s   71.81 K/s  0.00 %  0.40 % postgres: 11/main: user database 127.0.0.1(45992) idle
+06:48:01   286 be/3 root        0.00 B/s    0.00 B/s  0.00 %  0.39 % [jbd2/vda1-8]
+06:48:01 24889 be/4 postgres   21.54 K/s    7.18 K/s  0.00 %  0.38 % postgres: 11/main: user database 127.0.0.1(45842) idle
+06:48:01 25024 be/4 postgres    0.00 B/s   43.09 K/s  0.00 %  0.37 % postgres: 11/main: user database 127.0.0.1(45968) idle
+06:48:01 24798 be/4 postgres    0.00 B/s    7.18 K/s  0.00 %  0.37 % postgres: 11/main: user database 127.0.0.1(45704) idle
+06:48:01 25006 be/4 postgres    0.00 B/s   35.91 K/s  0.00 %  0.36 % postgres: 11/main: user database 127.0.0.1(45952) idle
+06:48:01 25017 be/4 postgres    7.18 K/s   43.09 K/s  0.00 %  0.33 % postgres: 11/main: user database 127.0.0.1(45964) idle
+06:48:01 24801 be/4 postgres    7.18 K/s   35.91 K/s  0.00 %  0.31 % postgres: 11/main: user database 127.0.0.1(45710) idle
+06:48:01 24836 be/4 postgres    0.00 B/s   14.36 K/s  0.00 %  0.31 % postgres: 11/main: user database 127.0.0.1(45760) idle
+06:48:01 25000 be/4 postgres   21.54 K/s    0.00 B/s  0.00 %  0.30 % postgres: 11/main: user database 127.0.0.1(45940) idle
+06:48:01 21505 be/4 postgres    7.18 K/s    7.18 K/s  0.00 %  0.30 % postgres: 11/main: user database 127.0.0.1(45570) idle
+06:48:01 20640 be/4 postgres    7.18 K/s   28.73 K/s  0.00 %  0.29 % postgres: 11/main: user database 127.0.0.1(44534) idle
+06:48:01 24870 be/4 postgres    7.18 K/s   14.36 K/s  0.00 %  0.28 % postgres: 11/main: user database 127.0.0.1(45808) idle
+06:48:01 25001 be/4 postgres    0.00 B/s   28.73 K/s  0.00 %  0.27 % postgres: 11/main: user database 127.0.0.1(45942) idle
+06:48:01 24758 be/4 postgres    0.00 B/s  114.90 K/s  0.00 %  0.25 % postgres: 11/main: user database 127.0.0.1(45668) idle
+06:48:01 24893 be/4 postgres    0.00 B/s   86.18 K/s  0.00 %  0.25 % postgres: 11/main: user database 127.0.0.1(45850) idle
+06:48:01 10652 be/4 postgres   14.36 K/s    0.00 B/s  0.00 %  0.24 % postgres: 11/main: user database 127.0.0.1(45234) idle
+06:48:01 15917 be/4 postgres    0.00 B/s   75.41 K/s  0.00 %  0.23 % pgbouncer -d /etc/pgbouncer/pgbouncer.ini
+06:48:01 24844 be/4 postgres    0.00 B/s   35.91 K/s  0.00 %  0.20 % postgres: 11/main: user database 127.0.0.1(45776) idle
+06:48:01 24828 be/4 postgres   14.36 K/s    0.00 B/s  0.00 %  0.19 % postgres: 11/main: user database 127.0.0.1(45744) idle
+06:48:01 25053 be/4 postgres    0.00 B/s   28.73 K/s  0.00 %  0.19 % postgres: 11/main: user database 127.0.0.1(45994) idle in transaction
+06:48:01 24885 be/4 postgres    0.00 B/s   50.27 K/s  0.00 %  0.18 % postgres: 11/main: user database 127.0.0.1(45834) idle
+06:48:01 24837 be/4 postgres   14.36 K/s    0.00 B/s  0.00 %  0.17 % postgres: 11/main: user database 127.0.0.1(45762) idle
+06:48:01 24800 be/4 postgres   14.36 K/s    0.00 B/s  0.00 %  0.17 % postgres: 11/main: user database 127.0.0.1(45708) idle
+06:48:01 24887 be/4 postgres    0.00 B/s   14.36 K/s  0.00 %  0.15 % postgres: 11/main: user database 127.0.0.1(45838) idle
+06:48:01 24941 be/4 postgres   14.36 K/s    0.00 B/s  0.00 %  0.14 % postgres: 11/main: user database 127.0.0.1(45906) idle
+06:48:01 24957 be/4 postgres    0.00 B/s    7.18 K/s  0.00 %  0.14 % postgres: 11/main: user database 127.0.0.1(45918) idle
+06:48:01 24761 be/4 postgres   14.36 K/s    0.00 B/s  0.00 %  0.12 % postgres: 11/main: user database 127.0.0.1(45674) idle
+06:48:01 25050 be/4 postgres   14.36 K/s    0.00 B/s  0.00 %  0.11 % postgres: 11/main: user database 127.0.0.1(45988) idle
+06:48:01 24831 be/4 postgres   14.36 K/s    0.00 B/s  0.00 %  0.08 % postgres: 11/main: user database 127.0.0.1(45750) idle in transaction
+06:48:01 24804 be/4 postgres    7.18 K/s    0.00 B/s  0.00 %  0.06 % postgres: 11/main: user database 127.0.0.1(45716) idle in transaction
+06:48:01 25635 be/4 postgres    4.82 M/s   14.36 K/s  0.00 %  0.00 % postgres: 11/main: autovacuum worker   database
+06:48:01 19769 be/4 root        0.00 B/s    7.18 K/s  0.00 %  0.00 % python3 /usr/sbin/iotop -botqq
+06:48:01 15869 be/4 postgres    0.00 B/s  215.44 K/s  0.00 %  0.00 % postgres: 11/main: background writer
+06:48:01  6787 be/4 postgres    4.99 M/s    0.00 B/s  0.00 %  0.00 % postgres: 11/main: autovacuum worker   database
+
+06:48:03 Total DISK READ :      13.59 M/s | Total DISK WRITE :       7.78 M/s
+06:48:03 Actual DISK READ:      19.00 M/s | Actual DISK WRITE:       6.68 M/s
+06:48:03 25042 be/4 postgres 1957.15 K/s    0.00 B/s  0.00 % 39.99 % postgres: 11/main: user database 127.0.0.1(45980) idle
+06:48:03 24930 be/4 postgres  858.03 K/s    0.00 B/s  0.00 %  8.38 % postgres: 11/main: user database 127.0.0.1(45884) idle in transaction
+06:48:03 24879 be/4 postgres   35.46 K/s  241.10 K/s  0.00 %  4.21 % postgres: 11/main: user database 127.0.0.1(45826) idle
+06:48:03 24884 be/4 postgres   42.55 K/s  184.37 K/s  0.00 %  3.29 % postgres: 11/main: user database 127.0.0.1(45832) idle
+06:48:03 24769 be/4 postgres   28.36 K/s   56.73 K/s  0.00 %  3.22 % postgres: 11/main: user database 127.0.0.1(45690) idle
+06:48:03 24914 be/4 postgres   49.64 K/s   78.00 K/s  0.00 %  2.76 % postgres: 11/main: user database 127.0.0.1(45872) idle
+06:48:03 24825 be/4 postgres    7.09 K/s  234.01 K/s  0.00 %  2.00 % postgres: 11/main: user database 127.0.0.1(45738) idle
+06:48:03 24934 be/4 postgres   56.73 K/s  134.73 K/s  0.00 %  1.73 % postgres: 11/main: user database 127.0.0.1(45892) idle
+06:48:03 24764 be/4 postgres    0.00 B/s  184.37 K/s  0.00 %  1.69 % postgres: 11/main: user database 127.0.0.1(45680) idle
+06:48:03 24761 be/4 postgres   14.18 K/s   21.27 K/s  0.00 %  1.45 % postgres: 11/main: user database 127.0.0.1(45674) idle
+06:48:03 24893 be/4 postgres   21.27 K/s  127.64 K/s  0.00 %  1.31 % postgres: 11/main: user database 127.0.0.1(45850) BIND
+06:48:03 24880 be/4 postgres    0.00 B/s   99.28 K/s  0.00 %  1.17 % postgres: 11/main: user database 127.0.0.1(45828) idle
+06:48:03 15772 be/4 postgres    7.09 K/s   85.09 K/s  0.00 %  1.16 % postgres: 11/main: user database 127.0.0.1(44322) idle in transaction
+06:48:03 25051 be/4 postgres   49.64 K/s  148.91 K/s  0.00 %  1.11 % postgres: 11/main: user database 127.0.0.1(45990) idle
+06:48:03 24866 be/4 postgres    7.09 K/s  138.28 K/s  0.00 %  1.08 % postgres: 11/main: user database 127.0.0.1(45800) idle
+06:48:03 24852 be/4 postgres   28.36 K/s   78.00 K/s  0.00 %  1.07 % postgres: 11/main: user database 127.0.0.1(45792) idle in transaction
+06:48:03 24989 be/4 postgres   28.36 K/s  134.73 K/s  0.00 %  1.05 % postgres: 11/main: user database 127.0.0.1(45938) idle
+06:48:03 24928 be/4 postgres   14.18 K/s   85.09 K/s  0.00 %  1.03 % postgres: 11/main: user database 127.0.0.1(45880) idle
+06:48:03 24888 be/4 postgres   21.27 K/s  148.91 K/s  0.00 %  1.03 % postgres: 11/main: user database 127.0.0.1(45840) idle
+06:48:03 24872 be/4 postgres    0.00 B/s   21.27 K/s  0.00 %  1.00 % postgres: 11/main: user database 127.0.0.1(45812) idle
+06:48:03 25005 be/4 postgres   92.18 K/s   63.82 K/s  0.00 %  0.99 % postgres: 11/main: user database 127.0.0.1(45950) idle
+06:48:03 25050 be/4 postgres   28.36 K/s   99.28 K/s  0.00 %  0.99 % postgres: 11/main: user database 127.0.0.1(45988) idle
+06:48:03 24842 be/4 postgres   35.46 K/s  163.10 K/s  0.00 %  0.99 % postgres: 11/main: user database 127.0.0.1(45772) idle
+06:48:03 24804 be/4 postgres    7.09 K/s  120.55 K/s  0.00 %  0.98 % postgres: 11/main: user database 127.0.0.1(45716) idle in transaction
+06:48:03 24885 be/4 postgres    7.09 K/s  163.10 K/s  0.00 %  0.94 % postgres: 11/main: user database 127.0.0.1(45834) UPDATE
+06:48:03 24798 be/4 postgres    7.09 K/s    7.09 K/s  0.00 %  0.94 % postgres: 11/main: user database 127.0.0.1(45704) idle
+06:48:03 24941 be/4 postgres   28.36 K/s  120.55 K/s  0.00 %  0.93 % postgres: 11/main: user database 127.0.0.1(45906) idle
+06:48:03 25003 be/4 postgres    7.09 K/s  120.55 K/s  0.00 %  0.88 % postgres: 11/main: user database 127.0.0.1(45946) idle
+06:48:03 24868 be/4 postgres    7.09 K/s   70.91 K/s  0.00 %  0.87 % postgres: 11/main: user database 127.0.0.1(45804) idle in transaction
+06:48:03 24831 be/4 postgres   28.36 K/s   70.91 K/s  0.00 %  0.79 % postgres: 11/main: user database 127.0.0.1(45750) idle
+06:48:03 31682 be/4 postgres   92.18 K/s 1049.49 K/s  0.00 %  0.78 % postgres: 11/main: autovacuum worker   database
+06:48:03 31183 be/4 root        0.00 B/s    0.00 B/s  0.00 %  0.72 % [kworker/u32:1]
+06:48:03 15870 be/4 postgres    0.00 B/s  333.28 K/s  0.00 %  0.69 % postgres: 11/main: walwriter
+06:48:03 25052 be/4 postgres    0.00 B/s   49.64 K/s  0.00 %  0.68 % postgres: 11/main: user database 127.0.0.1(45992) idle in transaction
+06:48:03 24910 be/4 postgres   28.36 K/s  156.00 K/s  0.00 %  0.68 % postgres: 11/main: user database 127.0.0.1(45864) idle
+06:48:03 24927 be/4 postgres   21.27 K/s    0.00 B/s  0.00 %  0.65 % postgres: 11/main: user database 127.0.0.1(45878) idle
+06:48:03 24957 be/4 postgres   63.82 K/s   70.91 K/s  0.00 %  0.64 % postgres: 11/main: user database 127.0.0.1(45918) idle
+06:48:03 25053 be/4 postgres   28.36 K/s    7.09 K/s  0.00 %  0.59 % postgres: 11/main: user database 127.0.0.1(45994) idle
+06:48:03 25002 be/4 postgres    7.09 K/s   70.91 K/s  0.00 %  0.58 % postgres: 11/main: user database 127.0.0.1(45944) idle in transaction
+06:48:03 24958 be/4 postgres   21.27 K/s   49.64 K/s  0.00 %  0.55 % postgres: 11/main: user database 127.0.0.1(45920) UPDATE
+06:48:03 24889 be/4 postgres    0.00 B/s   56.73 K/s  0.00 %  0.55 % postgres: 11/main: user database 127.0.0.1(45842) idle
+06:48:03 24877 be/4 postgres    7.09 K/s   63.82 K/s  0.00 %  0.52 % postgres: 11/main: user database 127.0.0.1(45822) idle in transaction
+06:48:03 30433 be/4 postgres    7.09 K/s   85.09 K/s  0.00 %  0.49 % postgres: 11/main: user database 127.0.0.1(44840) SELECT
+06:48:03 15777 be/4 postgres   14.18 K/s   56.73 K/s  0.00 %  0.49 % postgres: 11/main: user database 127.0.0.1(44332) idle
+06:48:03 25017 be/4 postgres    7.09 K/s   56.73 K/s  0.00 %  0.48 % postgres: 11/main: user database 127.0.0.1(45964) idle in transaction
+06:48:03 25029 be/4 postgres    7.09 K/s   63.82 K/s  0.00 %  0.47 % postgres: 11/main: user database 127.0.0.1(45974) idle
+06:48:03 25011 be/4 postgres    0.00 B/s   56.73 K/s  0.00 %  0.40 % postgres: 11/main: user database 127.0.0.1(45962) idle
+06:48:03 24956 be/4 postgres    7.09 K/s  106.37 K/s  0.00 %  0.36 % postgres: 11/main: user database 127.0.0.1(45916) idle
+06:48:03 24826 be/4 postgres    0.00 B/s   14.18 K/s  0.00 %  0.35 % postgres: 11/main: user database 127.0.0.1(45740) idle
+06:48:03 24766 be/4 postgres   14.18 K/s   56.73 K/s  0.00 %  0.35 % postgres: 11/main: user database 127.0.0.1(45684) UPDATE waiting
+06:48:03 15101 be/4 postgres   14.18 K/s   28.36 K/s  0.00 %  0.33 % postgres: 11/main: user database 127.0.0.1(45374) idle
+06:48:03 24883 be/4 postgres    0.00 B/s   49.64 K/s  0.00 %  0.33 % postgres: 11/main: user database 127.0.0.1(45830) idle
+06:48:03 24869 be/4 postgres    7.09 K/s    0.00 B/s  0.00 %  0.33 % postgres: 11/main: user database 127.0.0.1(45806) SELECT
+06:48:03 24985 be/4 postgres   21.27 K/s   28.36 K/s  0.00 %  0.33 % postgres: 11/main: user database 127.0.0.1(45930) idle
+06:48:03 24940 be/4 postgres    0.00 B/s   21.27 K/s  0.00 %  0.26 % postgres: 11/main: user database 127.0.0.1(45904) idle
+06:48:03 24762 be/4 postgres    7.09 K/s   14.18 K/s  0.00 %  0.23 % postgres: 11/main: user database 127.0.0.1(45676) INSERT
+06:48:03 25000 be/4 postgres    0.00 B/s   70.91 K/s  0.00 %  0.23 % postgres: 11/main: user database 127.0.0.1(45940) BIND
+06:48:03 25048 be/4 postgres    0.00 B/s   70.91 K/s  0.00 %  0.21 % postgres: 11/main: user database 127.0.0.1(45984) idle in transaction
+06:48:03 25004 be/4 postgres    0.00 B/s   21.27 K/s  0.00 %  0.19 % postgres: 11/main: user database 127.0.0.1(45948) idle in transaction
+06:48:03 24871 be/4 postgres   14.18 K/s    0.00 B/s  0.00 %  0.17 % postgres: 11/main: user database 127.0.0.1(45810) idle in transaction
+06:48:03 24916 be/4 postgres    0.00 B/s   14.18 K/s  0.00 %  0.14 % postgres: 11/main: user database 127.0.0.1(45876) idle
+06:48:03 24800 be/4 postgres    0.00 B/s    7.09 K/s  0.00 %  0.12 % postgres: 11/main: user database 127.0.0.1(45708) UPDATE
+06:48:03 25008 be/4 postgres    7.09 K/s    0.00 B/s  0.00 %  0.11 % postgres: 11/main: user database 127.0.0.1(45956) idle
+06:48:03 25635 be/4 postgres    4.85 M/s   35.46 K/s  0.00 %  0.11 % postgres: 11/main: autovacuum worker   database
+06:48:03 25030 be/4 postgres    0.00 B/s    7.09 K/s  0.00 %  0.11 % postgres: 11/main: user database 127.0.0.1(45976) idle
+06:48:03 24886 be/4 postgres    7.09 K/s    0.00 B/s  0.00 %  0.11 % postgres: 11/main: user database 127.0.0.1(45836) idle in transaction (aborted)
+06:48:03  6787 be/4 postgres    4.95 M/s    0.00 B/s  0.00 %  0.09 % postgres: 11/main: autovacuum worker   database
+06:48:03 19769 be/4 root        0.00 B/s    7.09 K/s  0.00 %  0.00 % python3 /usr/sbin/iotop -botqq
+06:48:03 15868 be/4 postgres    0.00 B/s 1801.15 K/s  0.00 %  0.00 % postgres: 11/main: checkpointer
+06:48:03 15869 be/4 postgres    0.00 B/s  120.55 K/s  0.00 %  0.00 % postgres: 11/main: background writer
+06:48:03 15917 be/4 postgres    0.00 B/s   60.27 K/s  0.00 %  0.00 % pgbouncer -d /etc/pgbouncer/pgbouncer.ini
+
+06:48:04 Total DISK READ :      10.68 M/s | Total DISK WRITE :       8.56 M/s
+06:48:04 Actual DISK READ:      10.84 M/s | Actual DISK WRITE:       7.48 M/s
+06:48:04 24766 be/4 postgres   14.84 K/s  185.47 K/s  0.00 %  3.72 % postgres: 11/main: user database 127.0.0.1(45684) idle
+06:48:04 24941 be/4 postgres   22.26 K/s  155.80 K/s  0.00 %  2.44 % postgres: 11/main: user database 127.0.0.1(45906) idle
+06:48:04 30433 be/4 postgres   51.93 K/s  170.63 K/s  0.00 %  2.43 % postgres: 11/main: user database 127.0.0.1(44840) idle
+06:48:04 24916 be/4 postgres   29.68 K/s   66.77 K/s  0.00 %  1.63 % postgres: 11/main: user database 127.0.0.1(45876) idle
+06:48:04 25030 be/4 postgres   14.84 K/s  185.47 K/s  0.00 %  1.56 % postgres: 11/main: user database 127.0.0.1(45976) idle
+06:48:04 24956 be/4 postgres   51.93 K/s   51.93 K/s  0.00 %  1.53 % postgres: 11/main: user database 127.0.0.1(45916) idle in transaction
+06:48:04 24958 be/4 postgres    0.00 B/s  103.86 K/s  0.00 %  1.39 % postgres: 11/main: user database 127.0.0.1(45920) idle
+06:48:04 25000 be/4 postgres   22.26 K/s   81.61 K/s  0.00 %  1.34 % postgres: 11/main: user database 127.0.0.1(45940) idle
+06:48:04 24893 be/4 postgres   22.26 K/s   81.61 K/s  0.00 %  1.24 % postgres: 11/main: user database 127.0.0.1(45850) idle
+06:48:04 24914 be/4 postgres   29.68 K/s  118.70 K/s  0.00 %  1.23 % postgres: 11/main: user database 127.0.0.1(45872) idle
+06:48:04 24828 be/4 postgres   14.84 K/s  103.86 K/s  0.00 %  1.17 % postgres: 11/main: user database 127.0.0.1(45744) idle
+06:48:04 15816 be/4 postgres   14.84 K/s    7.42 K/s  0.00 %  1.17 % postgres: 11/main: user database 127.0.0.1(44366) idle
+06:48:04 15772 be/4 postgres    0.00 B/s   96.44 K/s  0.00 %  1.10 % postgres: 11/main: user database 127.0.0.1(44322) idle in transaction
+06:48:04 24852 be/4 postgres   14.84 K/s  185.47 K/s  0.00 %  1.08 % postgres: 11/main: user database 127.0.0.1(45792) idle
+06:48:04 31682 be/4 postgres  126.12 K/s 1046.05 K/s  0.00 %  1.08 % postgres: 11/main: autovacuum worker   database
+06:48:04 24865 be/4 postgres   59.35 K/s    7.42 K/s  0.00 %  1.06 % postgres: 11/main: user database 127.0.0.1(45798) idle
+06:48:04 25003 be/4 postgres   14.84 K/s   89.03 K/s  0.00 %  1.05 % postgres: 11/main: user database 127.0.0.1(45946) idle
+06:48:04 24842 be/4 postgres    7.42 K/s  126.12 K/s  0.00 %  0.96 % postgres: 11/main: user database 127.0.0.1(45772) idle
+06:48:04 24826 be/4 postgres    7.42 K/s   96.44 K/s  0.00 %  0.94 % postgres: 11/main: user database 127.0.0.1(45740) idle
+06:48:04 25011 be/4 postgres   14.84 K/s  111.28 K/s  0.00 %  0.92 % postgres: 11/main: user database 127.0.0.1(45962) idle in transaction
+06:48:04 24889 be/4 postgres    7.42 K/s  140.96 K/s  0.00 %  0.92 % postgres: 11/main: user database 127.0.0.1(45842) idle
+06:48:04 24910 be/4 postgres    7.42 K/s   96.44 K/s  0.00 %  0.89 % postgres: 11/main: user database 127.0.0.1(45864) idle
+06:48:04 24866 be/4 postgres   89.03 K/s  126.12 K/s  0.00 %  0.88 % postgres: 11/main: user database 127.0.0.1(45800) idle
+06:48:04 24940 be/4 postgres    0.00 B/s   89.03 K/s  0.00 %  0.85 % postgres: 11/main: user database 127.0.0.1(45904) idle
+06:48:04 25635 be/4 postgres    4.51 M/s   66.77 K/s  0.00 %  0.82 % postgres: 11/main: autovacuum worker   database
+06:48:04 24762 be/4 postgres   51.93 K/s   66.77 K/s  0.00 %  0.81 % postgres: 11/main: user database 127.0.0.1(45676) idle
+06:48:04 25004 be/4 postgres    7.42 K/s  140.96 K/s  0.00 %  0.79 % postgres: 11/main: user database 127.0.0.1(45948) idle
+06:48:04 24761 be/4 postgres   14.84 K/s   89.03 K/s  0.00 %  0.79 % postgres: 11/main: user database 127.0.0.1(45674) idle
+06:48:04 24989 be/4 postgres    7.42 K/s  111.28 K/s  0.00 %  0.78 % postgres: 11/main: user database 127.0.0.1(45938) idle
+06:48:04 24876 be/4 postgres    7.42 K/s  126.12 K/s  0.00 %  0.77 % postgres: 11/main: user database 127.0.0.1(45820) idle
+06:48:04 24933 be/4 postgres   14.84 K/s   51.93 K/s  0.00 %  0.76 % postgres: 11/main: user database 127.0.0.1(45890) idle
+06:48:04 24885 be/4 postgres    7.42 K/s   74.19 K/s  0.00 %  0.75 % postgres: 11/main: user database 127.0.0.1(45834) idle
+06:48:04 25052 be/4 postgres   14.84 K/s  111.28 K/s  0.00 %  0.74 % postgres: 11/main: user database 127.0.0.1(45992) idle
+06:48:04 24934 be/4 postgres   44.51 K/s   81.61 K/s  0.00 %  0.72 % postgres: 11/main: user database 127.0.0.1(45892) idle
+06:48:04 25051 be/4 postgres   22.26 K/s   66.77 K/s  0.00 %  0.68 % postgres: 11/main: user database 127.0.0.1(45990) idle
+06:48:04 24932 be/4 postgres  126.12 K/s    0.00 B/s  0.00 %  0.68 % postgres: 11/main: user database 127.0.0.1(45888) idle in transaction
+06:48:04 24884 be/4 postgres   37.09 K/s    0.00 B/s  0.00 %  0.67 % postgres: 11/main: user database 127.0.0.1(45832) idle
+06:48:04 25026 be/4 postgres    7.42 K/s   59.35 K/s  0.00 %  0.61 % postgres: 11/main: user database 127.0.0.1(45972) BIND
+06:48:04 24868 be/4 postgres    7.42 K/s   44.51 K/s  0.00 %  0.56 % postgres: 11/main: user database 127.0.0.1(45804) idle
+06:48:04 24831 be/4 postgres    0.00 B/s   74.19 K/s  0.00 %  0.55 % postgres: 11/main: user database 127.0.0.1(45750) idle
+06:48:04 24883 be/4 postgres    7.42 K/s   51.93 K/s  0.00 %  0.54 % postgres: 11/main: user database 127.0.0.1(45830) idle
+06:48:04 25023 be/4 postgres    0.00 B/s  170.63 K/s  0.00 %  0.53 % postgres: 11/main: user database 127.0.0.1(45966) idle
+06:48:04 25042 be/4 postgres    7.42 K/s   81.61 K/s  0.00 %  0.52 % postgres: 11/main: user database 127.0.0.1(45980) UPDATE
+06:48:04 25017 be/4 postgres   22.26 K/s   89.03 K/s  0.00 %  0.51 % postgres: 11/main: user database 127.0.0.1(45964) idle
+06:48:04 24858 be/4 postgres   22.26 K/s   96.44 K/s  0.00 %  0.49 % postgres: 11/main: user database 127.0.0.1(45794) idle
+06:48:04 15777 be/4 postgres    0.00 B/s   81.61 K/s  0.00 %  0.48 % postgres: 11/main: user database 127.0.0.1(44332) idle in transaction
+06:48:04 25053 be/4 postgres    0.00 B/s   81.61 K/s  0.00 %  0.45 % postgres: 11/main: user database 127.0.0.1(45994) idle in transaction
+06:48:04 24833 be/4 postgres   22.26 K/s   44.51 K/s  0.00 %  0.44 % postgres: 11/main: user database 127.0.0.1(45754) idle
+06:48:04 24959 be/4 postgres   14.84 K/s   29.68 K/s  0.00 %  0.44 % postgres: 11/main: user database 127.0.0.1(45922) idle
+06:48:04 15870 be/4 postgres    0.00 B/s  526.74 K/s  0.00 %  0.44 % postgres: 11/main: walwriter
+06:48:04 25048 be/4 postgres    0.00 B/s    7.42 K/s  0.00 %  0.41 % postgres: 11/main: user database 127.0.0.1(45984) idle
+06:48:04 24888 be/4 postgres    7.42 K/s   37.09 K/s  0.00 %  0.41 % postgres: 11/main: user database 127.0.0.1(45840) idle in transaction
+06:48:04 24880 be/4 postgres    7.42 K/s   22.26 K/s  0.00 %  0.38 % postgres: 11/main: user database 127.0.0.1(45828) idle
+06:48:04 15815 be/4 postgres   14.84 K/s   44.51 K/s  0.00 %  0.37 % postgres: 11/main: user database 127.0.0.1(44364) idle
+06:48:04 24930 be/4 postgres   14.84 K/s   44.51 K/s  0.00 %  0.37 % postgres: 11/main: user database 127.0.0.1(45884) idle
+06:48:04 25029 be/4 postgres    0.00 B/s   81.61 K/s  0.00 %  0.37 % postgres: 11/main: user database 127.0.0.1(45974) idle
+06:48:04 24869 be/4 postgres   22.26 K/s   37.09 K/s  0.00 %  0.36 % postgres: 11/main: user database 127.0.0.1(45806) idle
+06:48:04 24808 be/4 postgres    7.42 K/s   14.84 K/s  0.00 %  0.35 % postgres: 11/main: user database 127.0.0.1(45724) idle
+06:48:04 25001 be/4 postgres    7.42 K/s   37.09 K/s  0.00 %  0.35 % postgres: 11/main: user database 127.0.0.1(45942) UPDATE waiting
+06:48:04 24927 be/4 postgres   14.84 K/s   51.93 K/s  0.00 %  0.34 % postgres: 11/main: user database 127.0.0.1(45878) idle in transaction
+06:48:04 24769 be/4 postgres   14.84 K/s   22.26 K/s  0.00 %  0.33 % postgres: 11/main: user database 127.0.0.1(45690) idle in transaction
+06:48:04  6787 be/4 postgres    4.89 M/s    0.00 B/s  0.00 %  0.33 % postgres: 11/main: autovacuum worker   database
+06:48:04 24935 be/4 postgres   14.84 K/s   29.68 K/s  0.00 %  0.32 % postgres: 11/main: user database 127.0.0.1(45894) idle
+06:48:04 24871 be/4 postgres    0.00 B/s   51.93 K/s  0.00 %  0.30 % postgres: 11/main: user database 127.0.0.1(45810) idle
+06:48:04 25002 be/4 postgres    7.42 K/s   22.26 K/s  0.00 %  0.29 % postgres: 11/main: user database 127.0.0.1(45944) idle
+06:48:04 24804 be/4 postgres   14.84 K/s    7.42 K/s  0.00 %  0.27 % postgres: 11/main: user database 127.0.0.1(45716) UPDATE waiting
+06:48:04 25006 be/4 postgres    7.42 K/s   44.51 K/s  0.00 %  0.27 % postgres: 11/main: user database 127.0.0.1(45952) idle
+06:48:04 24928 be/4 postgres    0.00 B/s   96.44 K/s  0.00 %  0.27 % postgres: 11/main: user database 127.0.0.1(45880) idle
+06:48:04 24892 be/4 postgres   14.84 K/s   29.68 K/s  0.00 %  0.27 % postgres: 11/main: user database 127.0.0.1(45848) idle
+06:48:04 24957 be/4 postgres    7.42 K/s    0.00 B/s  0.00 %  0.22 % postgres: 11/main: user database 127.0.0.1(45918) idle
+06:48:04 24800 be/4 postgres   22.26 K/s    0.00 B/s  0.00 %  0.22 % postgres: 11/main: user database 127.0.0.1(45708) idle in transaction
+06:48:04 24955 be/4 postgres    0.00 B/s    7.42 K/s  0.00 %  0.20 % postgres: 11/main: user database 127.0.0.1(45914) idle
+06:48:04 24985 be/4 postgres    0.00 B/s   29.68 K/s  0.00 %  0.16 % postgres: 11/main: user database 127.0.0.1(45930) idle in transaction
+06:48:04 24877 be/4 postgres    0.00 B/s   51.93 K/s  0.00 %  0.16 % postgres: 11/main: user database 127.0.0.1(45822) idle
+06:48:04 25008 be/4 postgres    0.00 B/s    7.42 K/s  0.00 %  0.16 % postgres: 11/main: user database 127.0.0.1(45956) idle
+06:48:04 25050 be/4 postgres    7.42 K/s    7.42 K/s  0.00 %  0.15 % postgres: 11/main: user database 127.0.0.1(45988) idle in transaction
+06:48:04 15101 be/4 postgres    0.00 B/s   14.84 K/s  0.00 %  0.13 % postgres: 11/main: user database 127.0.0.1(45374) idle in transaction
+06:48:04 18725 be/4 cc          0.00 B/s    3.71 K/s  0.00 %  0.00 % iostat -t -mx 1
+06:48:04 19769 be/4 root        0.00 B/s   11.13 K/s  0.00 %  0.00 % python3 /usr/sbin/iotop -botqq
+06:48:04 15868 be/4 postgres    0.00 B/s 1914.05 K/s  0.00 %  0.00 % postgres: 11/main: checkpointer
+06:48:04 15869 be/4 postgres    0.00 B/s   14.84 K/s  0.00 %  0.00 % postgres: 11/main: background writer
+06:48:04 15917 be/4 postgres    0.00 B/s   70.48 K/s  0.00 %  0.00 % pgbouncer -d /etc/pgbouncer/pgbouncer.ini
+06:48:04  7816 be/4 cc          0.00 B/s    3.71 K/s  0.00 %  0.00 % beam.smp -S 1 -- -root /home/cc/cakecloud-exporter -progname erl -- -home /home/cc -- -noshell -s elixir start_cli -mode embedded -setcookie cakecloud-exporter-1qa2ws3ed4rf -sname prod -config /home/cc/cakecloud-exporter/releases/0.1.0/sys -boot /home/cc/cakecloud-exporter/releases/0.1.0/start -boot_var RELEASE_LIB /home/cc/cakecloud-exporter/lib -- -- -extra --no-halt [1_dirty_io_sche]
